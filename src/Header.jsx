@@ -7,12 +7,14 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import {Link} from 'react-router-dom';
 
 
+
 function NavBar() {
   return (
     <container>
+
     <header class="header">
     <div class="header-1">
-        <Link to={"logo"} class="logo"> <img src='logo.gif' alt = "logo"></img> </Link>
+        <Link to={"logo"} class="logo"> <img src='logo1.gif' alt = "logo"></img> </Link>
 <       form action="" class="search-form">
             <input type="search" name="" placeholder="search here..." id="search-box"/>
             <label ><SearchIcon/></label>
@@ -29,6 +31,9 @@ function NavBar() {
 
     <div class="header-2">
         <nav class="navbar">
+
+                        
+
             <Link to='/HomeSection'>HOME</Link>
                     <div class='dropDown'>
                         <button class="dropDownButton">BOOKS</button>
@@ -49,7 +54,7 @@ function NavBar() {
                                 <a href='./page1'>CS-AIML</a>
 
                             </div>
-                            <a href='/Page2'>YEAR</a>
+                            <a href='/Page1'>YEAR</a>
                             <div class="year">
 
                                 <a href='./page2'>I</a>
@@ -63,7 +68,8 @@ function NavBar() {
                         </div>
                     </div>
             <a href="#NOTES">NOTES</a>
-            <a href="#MATERIALS">MATERIALS</a>
+            <a href='./Material'>MATERIALS</a>
+            
             <div class='dropDown1'>
                 <button class="dropDownButton1">QUESTION PAPERS</button>
                 <div class="dropDownElements1">

@@ -7,8 +7,7 @@ import Page1 from './Page1';
 import Page2 from './Page2';
 import Page3 from './Page3';
 import SignUp from './SignUp';
-
-
+import Material from './Material';
 
 
 function App() {
@@ -24,6 +23,7 @@ function App() {
         <Route path='/Page2' element = {<Page2/>}></Route>
         <Route path='/Page3' element = {<Page3/>}></Route>
         <Route path='/SignUp' element = {<SignUp/>}></Route>
+        <Route path='/Material' element = {<Material/>}></Route>
 
       </Routes> 
     
